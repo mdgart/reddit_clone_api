@@ -1,0 +1,3 @@
+export FLASK_APP=reddit_clone_api
+export FLASK_DEBUG=true
+flask run
