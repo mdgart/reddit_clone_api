@@ -1,13 +1,22 @@
+alembic==0.9.6
 aniso8601==1.3.0
 click==6.7
 Flask==0.12.2
+Flask-Login==0.4.1
+Flask-Migrate==2.1.1
 flask-restplus==0.10.1
+Flask-SQLAlchemy==2.3.2
+Flask-WTF==0.14.2
 itsdangerous==0.24
 Jinja2==2.10
 jsonschema==2.6.0
+Mako==1.0.7
 MarkupSafe==1.0
 python-dateutil==2.6.1
+python-editor==1.0.3
 pytz==2017.3
--e git+git@github.com:mdgart/reddit_clone_api.git@d638dd8448a64d6fce0cb81c2464fd220f21baf6#egg=reddit_clone_api
+-e git+git@github.com:mdgart/reddit_clone_api.git@777779120cae554879c5c4434ff01d65e29523fe#egg=reddit_clone_api
 six==1.11.0
+SQLAlchemy==1.2.0
 Werkzeug==0.13
+WTForms==2.1

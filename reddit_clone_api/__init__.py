@@ -1,4 +1,15 @@
 from flask import Flask
-app = Flask(__name__)
+import click
+from reddit_clone_api.config import Config
 
-import reddit_clone_api.views
+app = Flask(__name__)
+app.config.from_object(Config)
+
+
+@app.cli.command()
+def initdb():
+    """Initialize the database."""
+    click.echo('Init the db')  # todo
+
+
+from reddit_clone_api import views
