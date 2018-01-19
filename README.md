@@ -39,3 +39,13 @@ You will only need to run this command once. It will be saved as part of your vi
 ## Run the shell (repl) ##
 
 `> ./shell`
+
+## Setup Env Valiables for Development
+
+`> source init`
+
+
+## Database Migration
+
+`> source init`
+`> flask db upgrade`

@@ -15,7 +15,7 @@ MarkupSafe==1.0
 python-dateutil==2.6.1
 python-editor==1.0.3
 pytz==2017.3
--e git+git@github.com:mdgart/reddit_clone_api.git@777779120cae554879c5c4434ff01d65e29523fe#egg=reddit_clone_api
+-e git+git@github.com:mdgart/reddit_clone_api.git@25ddddbbc9b9dc9776bbfa32c511fabf4133f1ff#egg=reddit_clone_api
 six==1.11.0
 SQLAlchemy==1.2.0
 Werkzeug==0.13
