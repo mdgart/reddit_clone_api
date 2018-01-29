@@ -6,8 +6,8 @@ from flask_login import current_user, login_user, logout_user, login_required
 from werkzeug.urls import url_parse
 
 
-@app.route('/')
 @app.route('/index')
+@app.route('/')
 @login_required
 def index():
     subreddits = Subreddit.query.all()[:10]
